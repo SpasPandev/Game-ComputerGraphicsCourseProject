@@ -1,0 +1,30 @@
+﻿  BallObject.cpp
+  Application.cpp
+  GameLevel.cpp
+E:\programming\Ig\Blocks\GameLevel.cpp(56,42): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\programming\Ig\Blocks\GameLevel.cpp(57,44): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\programming\Ig\Blocks\GameLevel.cpp(59,23): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+  GameObject.cpp
+  Main.cpp
+E:\programming\Ig\Blocks\Main.cpp(53,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Shader.cpp
+E:\programming\Ig\Blocks\Shader.cpp(16,38): warning C4101: 'gShader': unreferenced local variable
+  SpriteRenderer.cpp
+  Texture.cpp
+  Generating Code...
+  glad.c
+Main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl key_callback(struct GLFWwindow *,int,int,int,int)" (?key_callback@@YAXPEAUGLFWwindow@@HHHH@Z)
+Main.obj : error LNK2019: unresolved external symbol glfwSetFramebufferSizeCallback referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwGetProcAddress referenced in function main
+E:\programming\Ig\Blocks\deps\glfw\lib\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\programming\Ig\x64\Debug\Igra.exe : fatal error LNK1120: 13 unresolved externals
